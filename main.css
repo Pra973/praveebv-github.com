@@ -561,4 +561,10 @@ nav .fa-solid {
     .about-col-1 {
         margin-bottom: 30px;
     }
+    #msg {
+    color: #78f535;
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+}
 }
