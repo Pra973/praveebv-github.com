@@ -411,9 +411,10 @@ form textarea {
 
 #msg {
     color: #78f535;
-    margin-top: -30px;
     display: block;
     text-align: center;
+    margin-top:250px;
+    padding-right: 200px;
 }
 
 /*-------- small size ----*/
