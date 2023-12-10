@@ -352,7 +352,7 @@ body {
     flex-basis: 70%;
     display: flex;
     justify-content: center; /* Center align the form */
-    align-items: center;
+   
     padding-left: 10px;
     padding-bottom: 50px;
 }
@@ -436,7 +436,6 @@ nav .fa-solid {
     }
    
     .logo h1{
-        display: flex;
         font-size: 15px;
     }
     .home-sci i{
