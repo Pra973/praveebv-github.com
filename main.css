@@ -536,6 +536,9 @@ nav .fa-solid {
     transition:.5s;
     
 } 
+    .home-content{
+        margin-top:30%;
+    }
     .home-content h3{
         font-size: 15px;
     }
