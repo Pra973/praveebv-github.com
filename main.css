@@ -370,11 +370,11 @@ form textarea {
     border: 0;
     outline: none;
     background: #262626;
-    padding: 20px;
-    margin: 10px 0 12px;
+    padding: 15px;
+    margin: 15px 0 ;
     color: #fff;
     font-size: 15px;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .btn {
@@ -408,15 +408,6 @@ form textarea {
     padding: 25px 0px;
     font-size: 14px;
 }
-
-#msg {
-    color: #78f535;
-    display: block;
-    text-align: center;
-    margin-top:250px;
-    padding-right: 200px;
-}
-
 /*-------- small size ----*/
 nav .fa-solid {
     display: none;
@@ -436,60 +427,85 @@ nav .fa-solid {
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        overflow-x: hidden;
     }
 
     .header {
-        padding: 10px 5%; /* Adjust padding for the header */
+        padding: 10px;
     }
 
-    .logo {
-        font-size: 24px; /* Adjust font size for the logo */
-        margin-left: 20px; /* Adjust margin for the logo */
+    .cross {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: rgb(4, 115, 137);
+        width: 100%;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar.show {
+        display: flex;
+    }
+
+    .navbar ul {
+        padding: 20px;
     }
 
     .navbar ul li {
-        margin: 10px 10px; /* Adjust margin for navigation items */
+        margin: 15px 0;
     }
 
     .home-sci {
-        left: 5%; /* Adjust left position for home-sci on smaller screens */
-        top: 10%; /* Adjust top position for home-sci on smaller screens */
+        display: none;
     }
 
-    .home-content {
-        max-width: 100%; /* Make home-content full width on smaller screens */
+    .nav-icon {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .sub-tittle{
+        font-size:40px;
+    }
+    .about-col-1,.about-col-2{
+        flex-basis:100%;
+    }
+    .about-col-1{
+        margin-bottom:30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size:16px;
+        margin-right:20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis:100%;
+    }
+    .copyright{
+        font-family: 14px;
     }
 
-    .home-content h1 {
-        font-size: 36px; /* Adjust font size for the main heading */
-    }
-
-    .home-content h3 {
-        font-size: 16px; /* Adjust font size for the subheading */
-    }
-
-    .home-content p {
-        font-size: 14px; /* Adjust font size for the paragraph */
-    }
-
-    .btn-box a {
-        width: 130px; /* Adjust width for the button */
-        height: 40px; /* Adjust height for the button */
-        font-size: 18px; /* Adjust font size for the button */
-    }
-
-    .about-col-1,
-    .about-col-2 {
-        flex-basis: 100%; /* Make columns full width on smaller screens */
-    }
-
-    .contact-left,
-    .contact-right {
-        flex-basis: 100%; /* Make contact columns full width on smaller screens */
-    }
-
-    .contact-right form {
-        width: 100%; /* Make form full width on smaller screens */
-    }
+}
+#msg {
+    color: #78f535;
+    display: block;
+    padding-left: 56%;
+    margin-top:-70px;
+       
 }
