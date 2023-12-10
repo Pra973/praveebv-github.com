@@ -349,7 +349,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 65%;
+    flex-basis: 75%;
     display: flex;
     justify-content: center; /* Center align the form */
     padding-left: 7px;
