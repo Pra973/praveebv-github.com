@@ -323,7 +323,7 @@ body {
 
 .contact-left {
     flex-basis: 20%;
-    padding-left: 10px;
+   ;
 }
 
 .contact-left p {
@@ -349,7 +349,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 70%;
+    flex-basis: 60%;
     display: flex;
     justify-content: center; /* Center align the form */
     padding-left: 70px;
@@ -433,7 +433,7 @@ nav .fa-solid {
     
     .header i{
         display: flex;
-        margin-top:10%;
+        margin-top:2%;
     }
    
     .logo{
