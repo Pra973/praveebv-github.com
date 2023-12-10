@@ -349,11 +349,10 @@ body {
 }
 
 .contact-right {
-    flex-basis: 70%;
+    flex-basis: 65%;
     display: flex;
     justify-content: center; /* Center align the form */
-   
-    padding-left: 10px;
+    padding-left: 7px;
     padding-bottom: 50px;
 }
 
