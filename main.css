@@ -349,7 +349,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 75%;
+    flex-basis: 60%;
     display: flex;
     justify-content: center; /* Center align the form */
     padding-left: 7px;
@@ -432,13 +432,16 @@ nav .fa-solid {
     }
     .header i{
         display: flex;
+        font-size: 15px;
     }
    
     .logo{
         font-size: 15px;
+        margin-left:10%;
     }
     .home-sci i{
     display: block;
+        font-size: 15px;
     }
     .home-sci a{
         position: relative;
@@ -449,12 +452,12 @@ nav .fa-solid {
     }
      nav .fa-solid{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         z-index: -2;
     }
     nav ul.fa-solid{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         z-index: -2;
     
     }
