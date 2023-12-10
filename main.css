@@ -425,7 +425,7 @@ nav .fa-solid {
 /* ... (your existing styles) ... */
 
 /* Responsive styles for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 #header{
         margin-bottom:100%;
         font-size: 16px;
@@ -437,7 +437,7 @@ nav .fa-solid {
     }
    
     .logo h1{
-        font-size: 30px;
+        font-size: 15px;
     }
     .home-sci i{
     display: block;
@@ -556,6 +556,7 @@ nav .fa-solid {
     }
     .sub-tittle{
         font-size:40px;
+        width:50px;
     }
     .about-col-1,.about-col-2{
         flex-basis:100%;
@@ -582,6 +583,6 @@ nav .fa-solid {
     color: #78f535;
     display: block;
     padding-left: 56%;
-    margin-top:-70px;
+    margin-top:-30px;
        
 }
