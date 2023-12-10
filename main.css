@@ -426,57 +426,86 @@ nav .fa-solid {
 
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
+#header{
+        margin-bottom:100%;
+        font-size: 16px;
+        display: flex;      
     }
-
-    .header {
-        padding: 10px;
-    }
-
-    .cross {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 24px;
-        cursor: pointer;
-        color: #fff;
-    }
-
-    .navbar {
-        position: fixed;
-        top: 70px;
-        right: 0;
-        background-color: rgb(4, 115, 137);
-        width: 100%;
-        text-align: center;
-        display: none;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar.show {
+    .header i{
         display: flex;
     }
-
-    .navbar ul {
-        padding: 20px;
+    .logo h1{
+        font-size: 30px;
     }
-
-    .navbar ul li {
-        margin: 15px 0;
+    .home-sci i{
+    display: block;
     }
-
-    .home-sci {
-        display: none;
+    .home-sci a{
+        position: relative;
+        margin-top: 30%;
+        left: -55%;
+        top: 50%;
+        z-index: 2;
     }
-
-    .nav-icon {
+    nav ul.fa-solid{
         display: block;
         font-size: 30px;
-        color: #fff;
+        z-index: -2;
+    }
+    nav ul{
+        background: #ff004f;
+        position:fixed;
+        top: 50px;
+        right: -200px;
+        width: 200px;
+        height: 50vh;
+        padding-top:100px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        z-index: 1;
+        transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        font-size: 25px;
+
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        font-size: 30px;
+        top: 25px;
+        left: 140px;
+        cursor: pointer; 
+    }
+    .header .cross{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        top: 25px;
+        left: 55px;
         cursor: pointer;
+    }
+    .home-content h1{
+        font-size: 20px;
+        margin-top: -210px;
+    }
+    .home-content h3{
+        font-size: 15px;
+    }
+    .home-content p{
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        line-height: 13px;
+        justify-content:center; 
+    }
+    .home-content.btn-box a{
+        display: flex;
+        justify-content:space-between;
+        width: 75px;
+        height: 70px;        
     }
     .sub-tittle{
         font-size:40px;
