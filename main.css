@@ -322,8 +322,8 @@ body {
 }
 
 .contact-left {
-    padding-left: 10px;
     flex-basis: 20%;
+    padding-left: 10px;
 }
 
 .contact-left p {
@@ -349,7 +349,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 80%;
+    flex-basis: 70%;
     display: flex;
     justify-content: center; /* Center align the form */
     align-items: center;
@@ -433,10 +433,10 @@ nav .fa-solid {
     }
     .header i{
         display: flex;
-        font-size:5px
     }
    
     .logo h1{
+        display: flex;
         font-size: 15px;
     }
     .home-sci i{
@@ -537,7 +537,8 @@ nav .fa-solid {
     overflow:hidden;
     transition:.5s;
     
-} .home-content h3{
+} 
+    .home-content h3{
         font-size: 15px;
     }
     .home-content p{
