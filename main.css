@@ -323,7 +323,7 @@ body {
 
 .contact-left {
     flex-basis: 20%;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .contact-left p {
@@ -349,7 +349,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 60%;
+    flex-basis: 70%;
     display: flex;
     justify-content: center; /* Center align the form */
     padding-left: 70px;
@@ -430,24 +430,28 @@ nav .fa-solid {
         display: flex;   
         
     }
+    
     .header i{
         display: flex;
-        margin-top:5%
+        margin-top:10%;
     }
    
     .logo{
         font-size: 15px;
         margin-left:10%;
     }
+    .logo:first-letter {
+        text-decoration:none;
+    }
     .home-sci i{
     display: block;
-        margin-top:5%;
+    margin-top:5%;
     font-size: 20px;
     }
     .home-sci a{
-        position: relative;
-        margin-top: 15%;
-         display: inline-flexbox;
+    position: relative;
+    margin-top: 15%;
+    display: inline-flexbox;
     justify-content: center;
     width: 25px;
     height: 25px;
