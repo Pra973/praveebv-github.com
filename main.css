@@ -434,7 +434,7 @@ nav .fa-solid {
         display: flex;
     }
    
-    .logo h1{
+    .logo{
         font-size: 15px;
     }
     .home-sci i{
@@ -537,7 +537,7 @@ nav .fa-solid {
     
 } 
     .home-content{
-        margin-top:30%;
+        margin-top:40%;
     }
     .home-content h3{
         font-size: 15px;
