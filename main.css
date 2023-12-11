@@ -429,21 +429,17 @@ nav .fa-solid {
 #header{
         margin-bottom:100%;
         font-size: 16px;
-        display: flex;   
-        
-    }
-    
-    .header i{
-        display:flex;
-       margin-top:400px;   
-    }
-   
+        display: flex;  
+}
     .logo{
         font-size: 15px;
         margin-left:10%;
     }
     .logo:first-letter {
         text-decoration:none;
+    }
+    .logo i{
+        top:5%; 
     }
     .home-sci i{
     display: block;
