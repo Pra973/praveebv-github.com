@@ -431,7 +431,9 @@ nav .fa-solid {
         font-size: 16px;
         display: flex;  
 }
-    
+    .header i{
+        display:flex;
+    }
     .logo{
         font-size: 15px;
         margin-left:10%;
@@ -440,7 +442,6 @@ nav .fa-solid {
         text-decoration:none;
     }
     .logo i{
-        display:flex;
         top:5%; 
     }
     .home-sci i{
