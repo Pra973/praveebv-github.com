@@ -433,12 +433,13 @@ nav .fa-solid {
 }
     .header i{
         display:flex;
-        font-size:25px;
+        margin-top:5%;
+        font-size:20px;
     }
     
     .logo{
         font-size: 20px;
-        margin-left:10%;
+        margin-left:5%;
     }
     .logo:first-letter {
         text-decoration:none;
