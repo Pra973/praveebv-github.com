@@ -324,7 +324,7 @@ body {
 
 .contact-left {
     flex-basis: 20%;
-   ;
+   
 }
 
 .contact-left p {
@@ -434,7 +434,7 @@ nav .fa-solid {
     }
     
     .header i{
-        display: flex;
+        display-inline:block;
         top:2%;   
     }
    
