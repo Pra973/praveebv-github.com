@@ -434,7 +434,7 @@ nav .fa-solid {
     }
     
     .header i{
-        display:block;
+        display:flex;
         top:2%;   
     }
    
