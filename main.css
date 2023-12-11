@@ -437,7 +437,7 @@ nav .fa-solid {
     }
     
     .logo{
-        font-size: 15px;
+        font-size: 20px;
         margin-left:10%;
     }
     .logo:first-letter {
@@ -449,7 +449,7 @@ nav .fa-solid {
     }
     .home-sci a{
     position: relative;
-    margin-top: 15%;
+    margin-top: 20%;
     display: inline-flexbox;
     justify-content: center;
     width: 25px;
