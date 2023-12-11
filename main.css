@@ -435,7 +435,7 @@ nav .fa-solid {
     
     .header i{
         display:flex;
-        bottom:10%;   
+        padding-bottom:20px;   
     }
    
     .logo{
