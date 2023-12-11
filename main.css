@@ -433,7 +433,7 @@ nav .fa-solid {
 }
     .header .fa-solid fa-bars{
         display:flex;
-        bottom:20%;
+        font-size:25px;
     }
     
     .logo{
