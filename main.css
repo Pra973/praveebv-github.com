@@ -53,6 +53,7 @@ body {
 
 .logo:first-letter {
     font-size: 200%;
+    text-decoration:none;
     color: rgb(30, 249, 34);
 }
 
@@ -349,10 +350,10 @@ body {
 }
 
 .contact-right {
-    flex-basis: 60%;
+    flex-basis: 70%;
     display: flex;
     justify-content: center; /* Center align the form */
-    padding-left: 70px;
+    padding-left: 10px;
     padding-bottom: 50px;
 }
 
@@ -433,7 +434,7 @@ nav .fa-solid {
     
     .header i{
         display: flex;
-        margin-top:2%;
+        margin-top:-20%;
     }
    
     .logo{
