@@ -360,6 +360,7 @@ body {
 .contact-right form {
     padding-left: 10px; /* Adjust padding */
     border-radius: 10px;
+    align-items:center;
     width: 50%;
 }
 
@@ -434,7 +435,7 @@ nav .fa-solid {
     
     .header i{
         display: flex;
-        margin-top:-20%;
+        margin-top:-30%;
     }
    
     .logo{
